@@ -1,0 +1,46 @@
+article{
+    padding-top: 0.4rem;
+    color:#88889d;
+    font-size:0.24rem
+}
+.left{
+    width:50%;
+    float:left
+}
+.right{
+    width:50%;
+    float:right
+}
+.depart{
+    text-align: center;
+    padding: 0.4rem 0 0.2rem 0;
+}
+.depart img{
+    /*max-height:400px;*/
+    /*max-width:120px;*/
+    /*zoom:0.7;*/
+    margin-bottom: 0.15rem;
+}
+.depart input{
+    width: 1.78rem;
+    height: 0.6rem;
+    background: #29292f;
+    border: 1px solid #88889d;
+    border-radius: 3px;
+    margin: 0.1rem 0 0.5rem 0;
+    color: #fff;
+    text-align: center;
+    padding: 0 10px;
+    font-size:28px
+}
+::-webkit-input-placeholder{
+    text-align: right;
+
+}
+
+ul{
+    margin-bottom: 0.7rem;
+}
+#result div{
+display:inline-block;
+}

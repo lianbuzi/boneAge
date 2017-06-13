@@ -1,0 +1,41 @@
+.bottom{
+    position: fixed;
+    bottom:0;
+    left:0;
+    width:100%
+}
+.bottom div{
+    float: left;
+    line-height: 0.98rem;
+    text-align: center;
+
+}
+.charge{
+    height:0.98rem;
+    width:20%;
+    color:#e15c52;
+    background:#fff
+}
+.botton2{
+ width:40%;
+    height:0.98rem;
+background:#50cb2f
+}
+
+a{
+    color:#fff;
+    text-underline: none;
+}
+#buy{
+    background:#24a585
+}
+.botton2:hover{
+    background: #47b52a
+}
+#buy:hover{
+    background: #1e8b70
+;
+}
+img{
+    margin-bottom: 0.85rem;
+}

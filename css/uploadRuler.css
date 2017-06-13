@@ -1,0 +1,50 @@
+body{
+    font-size: 0.24rem;
+}
+header{
+    padding:0.1rem 0.29rem 0.4rem 0.29rem;
+    height:1.15rem
+}
+header div{
+    width:5.6rem
+}
+header img{
+    margin-top: 0.3rem;
+    width:1rem
+}
+header section{
+
+    line-height: 0.4rem;
+}
+.content{
+    padding: 0.1rem 0.4rem;
+    margin-top: 0.3rem;
+}
+.dl{
+    width:0.45rem;
+    height:0.45rem;
+    border-radius:0.45rem;
+    text-align: center;
+    line-height: 0.45rem;
+    margin-right: 0.2rem;
+}
+.green{
+    background-color: #0ecc9c;
+}
+.blue{
+    background-color: #40bacc;
+}
+.yellow{
+    background-color: #cc9339;
+}
+li {
+    line-height: 0.7rem
+}
+.sub-conent{
+    padding-left :0.6rem;
+}
+.content img{
+    margin-left:1.5rem;
+    width:3rem;
+    border:1px solid #fff
+}

@@ -1,0 +1,144 @@
+header{
+    padding:0.16rem 0.28rem;
+}
+.upload-ruler{
+    background: url(../img/print.png) no-repeat;
+    background-size: 0.3rem;
+    padding-left: 0.45rem;
+    line-height: 0.3rem;
+}
+a{
+ font-size:0.24rem;
+    color:#88889d
+}
+#upload-btn{
+    background: url(../img/upload.png) no-repeat;
+    background-size: 2rem 2.37rem;
+    width: 2rem;
+    height: 2.37rem;
+    margin: auto;
+    margin-top: 0.71rem;
+    z-index:0
+}
+.upload-content{
+    position:relative;
+}
+#img-content{
+    width:100%;
+    text-align: center;
+    display: none;
+
+}
+#img-content .img-show{
+    background:url('../img/anli.png') no-repeat;
+    width:3rem;
+    background-size:100% 100%;
+    height:3.78rem;
+    margin:auto;
+    margin-top:0.28rem;
+    position:relative;
+    border:1px solid #fcfcff
+}
+.close div{
+    color:#fff;
+
+    width:0.35rem;
+    height:0.35rem;
+    background:#939393;
+    border-radius:0.32rem;
+    line-height: 0.35rem;text-align: center;
+    float: right;
+}
+.close{
+     float: right;
+    width:0.5rem;
+    height:0.5rem;
+    margin: 0.1rem;
+ }
+section{
+    padding:0 0 0.2rem 0;
+    background:#33333b;
+    border-radius: 0.1rem;
+}
+input[type=text],input[type=tel],input[type=date],select{
+    width:1.98rem;
+    height:0.58rem;
+    border:1px solid #999;
+    border-radius:0.05rem;
+    font-size:0.28rem;
+    text-align: center;
+    padding: 0 0.05rem;
+    color:#fff;
+    background:#29292f;
+    margin-left: 0.05rem;
+    box-sizing: inherit;
+}
+.inline:first-child input[type=date]{
+    padding:0;
+    width:2.3rem
+}
+select option{
+    color:#fff;
+    font-size:0.28rem;
+}
+[type=tel]::-webkit-input-placeholder{
+    text-align: right;
+    padding: 0 0.05rem;
+}
+section li{
+    padding:0.15rem;
+    /*font-size:0.28rem*/
+}
+
+li .inline:last-child{
+    float: right;
+}
+.sub-title{
+   border:1px solid #29292f
+}
+.botton{
+    margin: auto;
+    margin-top: 0.4rem;
+    width: 90%;
+
+}
+
+select,input[type=date] {
+    background:#29292f;
+    -webkit-appearance:none;
+}
+li.big .inline:last-child{
+    float: none;
+}
+.big .inline:first-child  input[type=tel],.big .inline:first-child  input[type=date],.big .inline:first-child  input[type=text]{
+    width: 5.7rem;
+    float: right;  margin-left: 0.14rem;
+
+}
+.upload-up{
+    position: relative;
+}
+#upload-file{
+    z-index:1;
+    width: 2rem;
+    height: 2.37rem;
+    position: absolute;
+    top:0;
+    left:2.5rem;
+    opacity: 0;
+}
+.inline>div{
+    float:left
+}
+#gender{
+    text-align: right;
+    padding: 0 0.7rem;
+    width: 0.7rem;
+}
+#birthday{
+    width: 5.8rem;
+
+}
+.inline:first-child input{
+    width:2.2rem
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="pragma" content="no-cache" />
+    <title>上传页面</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/upload.css"/>
+</head>
+<body>
+<header>
+    <div class="upload-ruler">
+        <a href="uploadRuler.html">上传要求</a>
+    </div>
+    <div class="upload-content">
+        <div class="upload-up">
+            <div id="upload-btn"></div>
+            <input type="file" id="upload-file"/>
+        </div>
+
+        <div id="img-content">
+            <div class="img-show">
+                <img src="" alt=""/>
+                <div class="close">
+                    <div id="close-btn">
+                        &times;
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section>
+    <ul>
+        <li class="sub-title"><b>骨龄评测补充信息</b></li>
+        <li>
+            <div class="inline">
+                <label for="">父亲身高:</label>
+                <input type="text" placeholder="cm" id="father"/>
+            </div>
+            <div class="inline">
+                <label for="">母亲身高:</label>
+                <input type="text" placeholder="cm" id="mother"/>
+            </div>
+        </li>
+        <li>
+            <div class="inline">
+                <label for="">孩子名字:</label>
+                <input type="text" id="son-name"/>
+            </div>
+            <div class="inline">
+                <label for="">孩子性别:</label>
+                <select name="" id="gender">
+                    <option value="0">男</option>
+                    <option value="1">女</option>
+                </select>
+            </div>
+        </li>
+        <li>
+            <div class="inline">
+                <label for="">拍片时间:</label>
+                <input type="date" placeholder="请选择日期" id="date-X-ray"/>
+            </div>
+            <div class="inline">
+                <div>孩子现高:</div>
+                <input type="text" placeholder="cm" id="now-height"/>
+            </div>
+        </li>
+        <!--<li>-->
+            <!--<div class="inline">-->
+                <!--<label for="">出生日期:</label>-->
+                <!--<input type="text" placeholder="yyyy-mmm-ddd" id="birthday"/>-->
+            <!--</div>-->
+            <!--<div class="inline">-->
+                <!--<label for="">手机号码:</label>-->
+                <!--<input type="tel"  id="phone"/>-->
+            <!--</div>-->
+        <!--</li>-->
+        <li class="big">
+            <div class="inline">
+                <div>出生日期:</div>
+                <input type="date"   id="birthday" class="test-datepicker" value="">
+            </div>
+        </li>
+        <li class="big">
+            <div class="inline">
+                <div>手机号码:</div>
+                <input type="tel" id="phone"/>
+            </div>
+        </li>
+    </ul>
+</section>
+<div id="submit" class="botton"> 提交信息</div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+<script src="js/upload5.js"></script>
+
+</html>
